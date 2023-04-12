@@ -1,0 +1,10 @@
+header{
+    background-color: blue; 
+
+    display:flex ;
+    justify-content: space-around;
+}
+
+.logo-educa{
+    width: 20%;
+}
