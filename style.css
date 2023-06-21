@@ -1,10 +1,49 @@
-header{
-    background-color: blue; 
-
-    display:flex ;
+*{
+    margin:0 ;
+    padding: 0;
+}
+body{
+font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #0049d1;
+    color:rgb(255, 255, 255) ;
+    display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
 }
 
-.logo-educa{
-    width: 20%;
+.cabecalho-imagem{ 
+    width: 15%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+  .escola-imagem{
+    width: 25%;
+  }
+  .escola{
+    background-image: linear-gradient(#0049d1,#00eeff);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 24px 0;
+  }
+
+.escola-div-conteudo{
+  width: 35%;
+}
+.escola-titulo{
+  padding: 24px 0;
+}
+.estudante-imagem{
+  width: 120px;
+}
+.estudante-icone{
+  width: 24px;
 }
